@@ -45,6 +45,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -63,9 +64,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Entities\Enums\MeasureUnit.cs" />
-    <Compile Include="Entities\ShutdownConfiguration.cs" />
-    <Compile Include="Entities\ShutdownEntry.cs" />
+    <Compile Include="Enums\MeasureUnit.cs" />
+    <Compile Include="Enums\Moment.cs" />
+    <Compile Include="Configuration\ShutdownConfiguration.cs" />
+    <Compile Include="Configuration\ShutdownEntry.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Resources\LocalizedStrings.Designer.cs">
       <AutoGen>True</AutoGen>
